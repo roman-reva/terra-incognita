@@ -8,6 +8,8 @@ MEDIUM: ??? Bug: Impossible to delete Supplier who has accepted an invite
 MEDIUM: Section/Requirement state
 
 LOW: Locking fields to others that are being used by me
+HIGH: Modify tab structure according the document 
+HIGH: Define and implement `Project delete` rules
 
 
 
@@ -15,33 +17,9 @@ USER STOREIS
 ============
 
 IMPORTANT TECHNICAL TASKS AND FIXES
-1 S-01158		NOT STARTED		SPRINT 5	Setup Production environment
-4 S-01164		NOT STARTED		SPRINT 5	Verify Hibernate 2nd level cache configuration
-- S-01165		NOT STARTED		SPRINT 5	As an Admin I want to enable Maintenance-Mode, before a system upgrade
+2 S-01099		NOT STARTED		SPRINT 5	As a User I want to be able to export a Section (or entire Project) to .XLS or .PDF file
+2 S-01097		NOT STARTED		SPRINT 5	As a Purchase Lead I want to be able to request a Supplier to update certain Requirements and accept/reject new responses	
 
-				NOT CREATED					Verify application server stability.
-				NOT CREATED					Try out concurrent work in application.
-				
-HIGH PRIO
-1 S-01145		IN PROGRESS		SPRINT 4	As a User I can see my status, timeline and also to do tasks in the "My Tasks" tab
-1 S-01157		IN PROGRESS		SPRINT 4	As a User I want to copy/paste images into Requirement text or attach other resources (PDF, DOC) 
-1 S-01161		IN PROGRESS		SPRINT 4	Introduce Admin user to the System
-1 S-01138		LEFTOVERS 		SPRINT 4	As a Purchase Lead I want to be able to change purchase process state so that the purchase process can be moved forward
-												COMMENT: add time picker
-1 S-01153		LEFTOVERS 		SPRINT 4	As a Purchase Lead I must be able to assign me to various Roles in the tender project
-1 S-01152		LEFTOVERS 		SPRINT 4	As a Demonstrator I need a dataset that is consistent with the process state
-1 S-01048		LEFTOVERS		SPRINT 4	As a Supplier Lead I can submit the Proposal to Purchase Side
-												COMMENT: modify the layout like for purchase side
-2 S-01155		LEFTOVERS		SPRINT 4	As a Purchase Evaluator I can score a Supplier Response
-												COMMENT: 1. remembering supplier team; 2. supplier scoring layout (%)
-2 S-01166		NOT STARTED		SPRINT 5	As an Organization Lead I should be able to assign Purchase Lead
-												COMMENT: how should this look like?
-1 S-01148 		NOT STARTED		SPRINT 4	As the System, I will create a task for users to start working on requirements in the relevant sections
-												COMMENT: create purchase Contributor tasks for empty sections
-1 S-01167		NOT STARTED		SPRINT 4	As a User I want to have context-dependent tender management menu
-4 S-01163		NOT STARTED		SPRINT 5	As a Purchase Lead I want to add supplier lead that already exists
-												COMMENT: implement server side verification of user that's being added.
-MEDIUM PRIO
 2 S-01135		NOT STARTED		SPRINT 5	As an Organization owner I can create a new project and change its properties later on	
 2 S-01162		NOT STARTED		SPRINT 5	As an Admin user I want to run-as a specific user
 1 S-01137		NOT STARTED		SPRINT 5	As a Purchase Lead I want to be able to define how to weight the various Sections 
@@ -65,9 +43,9 @@ LOWEST PRIO
 
 
 
-
-
 DONE
 S-01151		DONE			SPRINT 4	As a User I need help text that is relevant on all tabs
 S-01146		DONE			SPRINT 4	As a Purchase User I can view the Tender Progress Dashboard
 S-01156		DONE			SPRINT 4	As a User I can view the Tender Progress Dashboard (area chart version)
+2 S-01099		NOT STARTED		SPRINT 5	As a User I want to be able to export a Section (or entire Project) to .XLS or .PDF file
+2 S-01097		NOT STARTED		SPRINT 5	As a Purchase Lead I want to be able to request a Supplier to update certain Requirements and accept/reject new responses	
