@@ -1,6 +1,7 @@
 println 'Hello World!'
 
-int a = 2 * 20
+def pi = 3.14159
+int a = 6 * 20 * pi
 int b = a * 2
 
 println "The result is ${b}"
