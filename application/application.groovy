@@ -3,7 +3,7 @@ println "This is mega super demo application"
 def a = 10
 def b = 30
 
-def result = a + b * 41
+def result = a + b * 41 // this is hotfix upd!
 println "Result: ${result}"
 
 println "The end!"
