@@ -8,6 +8,6 @@ def result = (a + b * 41) * coef // this is hotfix upd!
 println "Result: ${result}"
 
 def constant = 202
-println "And constant equals $constant!"
+println "And constant equals $constant!!!"
 
 println "The end!"
