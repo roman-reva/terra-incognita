@@ -9,8 +9,11 @@ MEDIUM: Section/Requirement state
 
 LOW: Locking fields to others that are being used by me
 HIGH: Modify tab structure according the document 
+HIGH: Modify tab structure according the document 
+HIGH: Modify tab structure according the document 
+HIGH: Modify tab structure according the document 
 HIGH: Define and implement `Project delete` rules
-
+HIGH: Modify tab structure according the document 
 
 
 USER STOREIS
@@ -45,7 +48,5 @@ LOWEST PRIO
 
 DONE
 S-01151		DONE			SPRINT 4	As a User I need help text that is relevant on all tabs
-S-01146		DONE			SPRINT 4	As a Purchase User I can view the Tender Progress Dashboard
-S-01156		DONE			SPRINT 4	As a User I can view the Tender Progress Dashboard (area chart version)
 2 S-01099		NOT STARTED		SPRINT 5	As a User I want to be able to export a Section (or entire Project) to .XLS or .PDF file
 2 S-01097		NOT STARTED		SPRINT 5	As a Purchase Lead I want to be able to request a Supplier to update certain Requirements and accept/reject new responses	
