@@ -7,7 +7,7 @@ def coef = 1.5
 
 def result = coef * (a + b)
 
-def message =" blabla balbla"
+def message =" blabla balbla bla=bla"
 println message
 
 println "Result = ${result}"
